@@ -1,0 +1,270 @@
+html, body{
+    background-color:black;
+    
+}
+
+#titolo { /*# per l'id e il punto per le classi*/
+font-family:  Roboto;
+font-size: 55px;
+color: white;
+text-align: center;
+margin-top: 10px; /*serve per mettere il titolo al mezzo*/
+}
+#paragraph{
+    font-family:  Ubunto Sans Mono;
+    font-size: 40px;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+}
+
+
+#img1 {
+    display: flex;
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.griglia {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'right right right left left left';
+    grid-gap: 20px; 
+    text-align: center;
+    margin-top: 20px;
+}
+#intestazione1 {
+    grid-area: header;
+    color: white;
+    font-size: 40px;
+}
+
+#blocco1 {
+    grid-area: left;
+}
+
+#blocco2 {
+    grid-area: right;
+}
+#buttoncena{
+        border: none;
+        background-color: rgb(7, 20, 27);
+        padding: 15px 32px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+#descri{
+    font-family:  Roboto;
+    font-size: 45px;
+    color: white;
+    margin-top: 60px;
+    text-align: center
+}
+#paragraphl{
+    font-family:  Sans;
+    font-size: 25px;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+}
+#bold{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(97, 157, 174);
+}
+.image-container {
+    display: flex; /* Allinea le immagini orizzontalmente */
+    justify-content: space-between; /* Aggiunge uno spazio tra le immagini */
+    flex-wrap: wrap; /* Permette alle immagini di andare a capo se non c'è abbastanza spazio */
+}
+
+.container {
+    width: 100%; /* Rende l'immagine responsiva */
+    max-width: 400px; /* Imposta la larghezza massima dell'immagine */
+    margin: 10px; /* Aggiunge uno spazio attorno a ciascuna immagine */
+}
+
+.sushi-image {
+    height: auto; /* Mantiene le proporzioni originali dell'immagine */
+}
+
+
+#paragraphli {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 0px;
+    margin-right: 28px;
+    text-align: center;
+}
+
+.griglial {
+    display: grid;
+    grid-template-areas:
+        'center'
+        'left';
+    grid-gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#blocco {
+    grid-area: left;
+}
+
+#button{
+    font-family: Helvetica;
+    border: none;
+    background-color: rgb(7, 20, 27);
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#mappab{
+    background-color: black;
+}
+#mappa{
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paragraphll{
+    font-family:  Sans;
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.griglials {
+    display: grid;
+    grid-template-areas:
+        'center'
+        'left';
+    grid-gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#blocco {
+    grid-area: left;
+}
+
+#button{
+    font-family: Helvetica;
+    border: none;
+    background-color: rgb(7, 20, 27);
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#grigli {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px; /* Aggiunge uno spazio tra gli elementi della griglia */
+}
+
+#bloc {
+    margin-top: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloc img {
+    max-width: 100%; /* Rende l'immagine responsiva */
+    height: auto;
+    margin-top: 10%;
+    display: block;
+}
+
+#num {
+    margin-top: 10px;
+}
+
+#headin {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#paragraphle {
+    font-family: 'Montserrat';
+    font-size: x-large;
+    color: whitesmoke;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#info{
+    height: 150px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.infobasso{
+    margin: 30px 0;
+}
+.infobasso ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.infobasso ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.copi{
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+.copi p{
+    color: black;
+}
